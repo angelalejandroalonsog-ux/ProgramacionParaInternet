@@ -1,0 +1,36 @@
+NOTAS CLASE Programación para internet. 20/08/26	
+
+	Dir para listar lo que tenemos en el directorio 
+
+	cd es de "Change Directory"
+	
+	cd .. Para salir del directorio actual
+
+	cd ..\.. para ir atrás dos directorios
+
+	en Linux: Usamos 'pwd' para ver en qué parte del directorio nos encontramos.
+		En Linux usamos lr también como dir en windows
+	git init: hace unos archivos de seguimiento para git	
+
+	git status: nos muestra el estado de los commit y los añadidos
+
+	git add . añade todo lo que se encuentra en nuestro actual directorio
+
+	git add example.html añadiría un archivo en especifico.
+
+	git commit: no entendí bien, pero al hacer status, ya chanchó
+
+	git log: nos muestra nuestro historial de commit's
+
+	git rm: para remover algun elemento del stage.
+
+	git config: user.name/ user.email /init.defaultBranch
+
+	git commit -m: con esto cambiamos el nombre del commit o snapshot actual.
+
+	SecureShell: información encriptada, comunicación segura. Las llaves se crean en una carpeta oculta en la carpeta del usuario.
+
+	con: ssh-keygen -t ed25519 -C "email@example.com" Creamos una clave única, donde nos genera una llave pública para conectarnos remotamente,
+	y la clave privada, con la cual nos verificamos.
+
+	
