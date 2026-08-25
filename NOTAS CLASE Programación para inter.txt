@@ -1,5 +1,7 @@
 NOTAS CLASE Programación para internet. 20/08/26	
 
+	GIT STUDENT'S PACK.
+
 	Dir para listar lo que tenemos en el directorio 
 
 	cd es de "Change Directory"
@@ -33,11 +35,40 @@ NOTAS CLASE Programación para internet. 20/08/26
 	con: ssh-keygen -t ed25519 -C "email@example.com" Creamos una clave única, donde nos genera una llave pública para conectarnos remotamente,
 	y la clave privada, con la cual nos verificamos.
 
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+	25/08/26
+
+	el git pull pude hacerlo bien hasta que añadí el enlace ssh que otorga github (git pull git@github.com:angelalejandroalonsog-ux/ProgramacionParaInternet.git)
+	
 	git branch -m master main es la forma correcta de cambiar el nombre del branch.
 
-	git checkout -b nueva-rama //crea una nueva rama y mueveme a esa rama
+	git checkout -b nueva-rama //crea una nueva rama y muéveme a esa rama
 
 	mejor ponerle el nombre de lo que estamos trabajando a las ramas, no una descripción cualquiera, pues se integran o se eliminan, etc.
-	
 
+	desde una rama alternativa podemos hacer git checkout -b para movernos a una rama que deseemos.
+	a partir de hacemos un git fetch para actualizar 
+
+	podemos usar fast forward para integrar dos ramas. Pero puede terminar siendo demasiado grande el historial de los commit, conviene hacerlo con programas más pequeños.
+	En proyectos grandes es mejor usar No Fast forward, el cual usa un commit de integración, uniendo todos los cambios de una rama en un sólo commit.
+	squash //no alcancé a escuchar.
+
+	Podemos usar algún entorno gráfico para hacer este tipo de funciones. //Fork, GitKraken, Git Desktop.
+
+	en VSCode, con ctrl+p podemos hacer una búsqueda de archivos en proyectos grande
+
+	en VSCode podemos ver el origen de los cambios en nuestro branch, esto al momento de haber un conflicto es más fácil de resolver en vscode
+
+	para hacer commit's es mejor hacerlo desde un entorno gráfico //creo haber escuchado.
+
+	GIT CHEAT SHEET'S
+
+	la primera vez que vamos a hacer un git push, se hace : git push -u origin nombre-de-la-rama
+	el resto de veces podemos simplemente hacer git push
+
+	los commit's deben reflejar los cambios hechos, por costumbre uno debe poner mensajes de commit adecuados, no como "ultimo cambio"
+-------------------------------------------------------------------------------------------------------------------------------------------------
+	
+	
 	TP LINK 4590: 77301499
