@@ -33,4 +33,4 @@ NOTAS CLASE Programación para internet. 20/08/26
 	con: ssh-keygen -t ed25519 -C "email@example.com" Creamos una clave única, donde nos genera una llave pública para conectarnos remotamente,
 	y la clave privada, con la cual nos verificamos.
 
-	
+	git branch -m master main es la forma correcta de cambiar el nombre del branch.
