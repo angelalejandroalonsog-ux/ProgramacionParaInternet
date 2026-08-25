@@ -35,4 +35,9 @@ NOTAS CLASE Programación para internet. 20/08/26
 
 	git branch -m master main es la forma correcta de cambiar el nombre del branch.
 
+	git checkout -b nueva-rama //crea una nueva rama y mueveme a esa rama
+
+	mejor ponerle el nombre de lo que estamos trabajando a las ramas, no una descripción cualquiera, pues se integran o se eliminan, etc.
+	
+
 	TP LINK 4590: 77301499
