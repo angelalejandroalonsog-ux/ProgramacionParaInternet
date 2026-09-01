@@ -69,6 +69,9 @@ NOTAS CLASE Programación para internet. 20/08/26
 
 	los commit's deben reflejar los cambios hechos, por costumbre uno debe poner mensajes de commit adecuados, no como "ultimo cambio"
 -------------------------------------------------------------------------------------------------------------------------------------------------
-	
+	01/09/26
+
+	Para cargar plantillas podemos sacarlas de Bootstrap y Tailwind (primera clase donde vemos CSS)
+	clases para cambiar cosas //creo que toca verse algún tutorial
 	
 	TP LINK 4590: 77301499
