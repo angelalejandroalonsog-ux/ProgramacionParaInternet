@@ -73,5 +73,35 @@ NOTAS CLASE Programación para internet. 20/08/26
 
 	Para cargar plantillas podemos sacarlas de Bootstrap y Tailwind (primera clase donde vemos CSS)
 	clases para cambiar cosas //creo que toca verse algún tutorial
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+	03 09 26
+	al parecer vimos los formularios.
+-------------------------------------------------------------------------------------------------------------------------------------------------
+	08 09 26
+
+	los comentarios hechos en php no deberían de ser visible como en html
+	las variables deben empezar por una letra o un guion bajo, no puede empezar por un número.
+	las variables que son "variables" generalmente van en minúsculas y las variables "constantes" se escriben en mayúsculas.
 	
+	PhP nació como una versión para desarrollo web de C, por eso se parecen.
+	Loop for each
+	generalmente vamos a trabajar con arreglos, así que por ello trabajaremos con los Foreach
+	los arreglos los declaramos como una variable seguido de la palabra array
+	ejemplo: $colors = array("red", "green", "blue", "yellow");
+	Los nombres de las clases deben ir con mayúscula (si son dos palabras, ambas deben ir en mayúsculas), o pueden provocar problemas.
+	POO en PHP funciona idéntico, existe el encapsulamiento. 
+	Los métodos van en minúscula.
+	Para acceder a los atributos lo hacemos con $this->
+	constructores van con doble guion bajo: __construct(parámetros)
+	casi todos los métodos que vamos a estar utilizando van a ser públicas. 
+	interfaces y Abstract classes, también llamado contrato. //ni idea, debo investigar mejor.
+	En PHP no existe la doble herencia, para eso se crearon los las clases tipo "trait"
+
+	En Laragon podemos tener un servidor local, al prenderlo (usamos apache) podemos accederlo desde un navegador usando 27.01 (creo) o localhost (este sí)
+	Al hacer peticiones a alguna instancia que ya no existe o no se encuentra, saldrá el "not found"
+	Al entrar al host local deberíamos de ver el primer Index que encuentre en la carpeta raíz de Laragon.
+	No olvides hacer un commit/push al finalizar este ejercicio, no me he acostumbrado a hacerlo ni sé hacerlo bien.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
 	TP LINK 4590: 77301499
