@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba</title>
+</head>
+<body>
+    <form action="/prueba.php" method="POST"> 
+        <label for="nombre">Nombre</label>
+        <input type ="text" id="nombre" name="nombre" placeholder="Ingrese su Nombre"> <br>
+        <!-- acá, el type es el que decide todo en el formulario, tiene por defecto el tipo "texto", los más recurrentes son :
+        email, password, radio, checkbox y file -->
+        <label for="correo">Correo</label>
+        <input type="email" id="correo" name="correo" placeholder="example@example.com"><br>
+        <!--Name es el atributo que se utiliza para identificar el campo en el servidor,
+        ID es el atributo que se utiliza para identificar el campo en el cliente-->
+        <br>
+        <label for="comentario">Comentario:</label> <br>
+        <textarea cols="50" rows="10" name="comentario" placeholder="Comentario" id="comentario"></textarea>
+        <input type="submit">
+        <button type ="button">tipo botón</button>
+        <button type ="reset">tipo reset</button>
+        <button type ="submit">tipo submit</button>
+        <!--La ventaja que tiene la etiqueta button sobre la submit, es que podemos añadir otras etiquetas de html, como imagenes-->
+        <button type ="button" ><img src="source.jpg"alt ="diablazo" width="50px"></button>
+
+        
+     </form>
+
+    <h1>Prueba</h1>
+    <p>Esta es una prueba de la página.</p>
+    <p>Voy a estar añadiendo funciones para recordarlas después.</p>
+    <hr>
+    <p>En este caso, la etiqueta <span style="color : green">span</span> se utiliza <br> para aplicar estilo a un fragmento de texto.</p>
+    <p>recordar que con br podemos <br> hacer <br> tantos <br> saltos <br> de línea <br> como <br> queramos.</p>
+    <!-- Recordar que esta es la forma en la que se escriben comentarios acá, esto será visible por los usuarios si hacen un "inspeccionar elemento"-->
+    <hr>
+    <p>esta linea sólo es una referencia a los anchor. <a href="Brandon_Sanderson_at_MCM_Comic_Con_London_22_May_2026_02.jpg" target="_blank">Imagen de Brandon Sanderson.</a> Enlaces en html.</p>
+    <p>No sólo funciona con imágenes. sino también con... <a href="https://www.google.com" target="_blank">Google</a></body></p> <!-- con target podemos decirle al enlace dónde abrirse-->
+    <img src="Brandon_Sanderson_at_MCM_Comic_Con_London_22_May_2026_02.jpg" alt="mi papá" width="300" height="400"> <!-- con alt ponemos un nombre en caso de que la imágen no se muestre-->
+    <!-- no es necesario usar un / al final de img porque es una etiqueta que se cierra automaticamente-->
+     
+</body>
+</html>
