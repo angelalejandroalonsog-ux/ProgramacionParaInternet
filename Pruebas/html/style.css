@@ -1,0 +1,8 @@
+/*Los comentarios son iguales a C/CPP pero no funciona hacer // */
+#titulo { /*Al usar un # le indicamos a css que tiene que buscar un elemento 
+        con una propiedad ID cuyo valor va a ser el de titulo*/
+    color: tomato;
+}
+p {
+    color: slateblue;
+}
