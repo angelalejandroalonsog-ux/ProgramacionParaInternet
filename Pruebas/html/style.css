@@ -3,6 +3,18 @@
         con una propiedad ID cuyo valor va a ser el de titulo*/
     color: tomato;
 }
-p {
+p.texto {
+    /*selector de clase, le indicamos a CSS que vamos a seleccionar una clase usamos el punto. seguido del nombre de la clase*/
     color: slateblue;
+
+}
+/*Seleccionar solo una etiqueta P que tenga la clase texto*/
+p.especial{
+    color: mediumseagreen;
+}
+div p {
+    color: aquamarine;
+}
+div h2 {
+    color: brown;
 }
