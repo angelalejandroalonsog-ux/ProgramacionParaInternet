@@ -9,12 +9,13 @@ if ($_SERVER["REQUEST_METHOD"]=== "POST"){
     Mientras que REQUEST_METHOD contiene el método HTTP utilizado para llegar al .php
     === nos sirve para comparar contenido y tipo, en este caso comparando POST y que sea un string
     
-*/
+*/  
+
+    require('conexion.php');
     error_reporting(E_ALL);
     ini_set('display_errors', 1);
 
     echo "PHP está funcionando.<br>";
-
     echo "Método: " . $_SERVER["REQUEST_METHOD"] . "<br>";
 
     echo "Nombre: " . $_POST["nombre"] . "<br>";

@@ -113,5 +113,14 @@ NOTAS CLASE Programación para internet. 20/08/26
 	termine viendo un tutorial, llegué casi cuando la clase estaba acabando
 
 -------------------------------------------------------------------------------------------------------------------------------------------------
+	17/09/26
+	desde laragon:
+	el puerto en el laragon debe ser 3306, en caso de que sea otro debemos especificarlo con -p y el número de puerto (En caso de ser 33061)
+	desde laragon ingresamos a 'terminal' y escribir: mysql -u root
+	podemos hacer uso de HeidiSQL Portable con laragon ingresando a la opción de DATABASE y crear una nueva sesión con el puerto en el que estamos trabajando.
+	
+	
 
+-------------------------------------------------------------------------------------------------------------------------------------------------
 	TP LINK 4590: 77301499
+
