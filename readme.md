@@ -1,19 +1,22 @@
 # Programación para Internet
 
-Repositorio de ejercicios, prácticas y apuntes de la materia
+Repositorio con mi caós de ejercicios, prácticas y apuntes de la materia:
 Programación para Internet.
 
 ## Contenido
 
-- `web/` — ejercicios y ejemplos de HTML y PHP.
-- `html pruebas/` — pruebas y experimentos.
-- `NOTAS CLASE Programación para inter.txt` — apuntes de clase.
-
+- `web/` — Consta de formularios (HTML y PHP) y el pobre intento de conectarlo a alguna base de datos
+- `Pruebas/` — Posee distintos archivos para practicar los conocimientos que he obtenido.
+- `Notas de Clase.txt` — apuntes de la clase PPI.
+- `Scripts de MySQL` — los scripts con anotaciones que he estado haciendo.
+- `Diagnosticos` — De eso no se habla en esta casa...
 ## Tecnologías
 
 - HTML
+- CSS
 - PHP
+- MySQL
 - Git
 - GitHub
 - Laragon
-- Visual Studio Code
+- Visual Studio Code (IDE)

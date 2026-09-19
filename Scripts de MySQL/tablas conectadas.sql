@@ -23,3 +23,18 @@ select u.id, u.email, p.name from user u right join product p on u.id = p.create
 select u.id, u.email, p.name from user u inner join product p on u.id = p.created_by; -- inner join (nos trae la intersección de de consulta, extrae información de las dos tablas)
 select u.id, u.name, p.id, p.name from user u cross join product p; -- cross join (producto cartesiano o producto potencia de las dos tablas)
 -- group by
+-- HERMANO, QUÉ TEMA TAN RARO! necesito darle una repasada
+select count(id), marca from  product group by marca; -- agrupa filas que tienen los mismos valores en columnas específicas y resume la información, en este caso, el valor "marca" "apple".
+select count(p.id), u.name from product p left join user u on u.id= p.created_by group by p.created_by; -- combinamos left join y group by (doble dolor de cabeza.)
+select count(p.id), u.name from product p left join user u 
+on u.id= p.created_by group by p.created_by
+having count(p.id)>=2; -- es el código anterior, pero en este caso únicamente nos muestra valores agrupados que sean mayores o iguales a 2.
+-- tema delicado...
+
+-- finalmente tenemos el drop!
+drop table product;
+drop table animales;
+drop table user;
+-- con esto eliminamos tablas
+drop database prueba;
+-- con esto, evidentemente, lo que hacemos es borrar db's.

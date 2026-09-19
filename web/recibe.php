@@ -1,4 +1,5 @@
 <?php
+    #mi propio "Recibe.php"
 if ($_SERVER["REQUEST_METHOD"]=== "POST"){
     #el $_SERVER contiene información sobre la petición HTTP que acaba de recibir el servidor
     /*COSAS QUE PUEDE CONTENER: 

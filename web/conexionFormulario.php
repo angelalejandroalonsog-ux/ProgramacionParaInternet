@@ -2,7 +2,7 @@
   // Credenciales
   $servername = "localhost";
   $username = "root";
-  $password = "";
+  $password = "Oyasumi9";
   $database = "horoscopo";
 
   try {
