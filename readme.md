@@ -1,6 +1,6 @@
 # Programación para Internet
 
-Repositorio con mi caós de ejercicios, prácticas y apuntes de la materia:
+Repositorio con mi caos de ejercicios, prácticas y apuntes de la materia:
 Programación para Internet.
 
 ## Contenido
