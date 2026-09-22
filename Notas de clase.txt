@@ -122,5 +122,82 @@ NOTAS CLASE Programación para internet. 20/08/26
 	
 
 -------------------------------------------------------------------------------------------------------------------------------------------------
+	22/09/26
+	ORM (Objec-Relational Mapping) y MVC (Modelo Vista Controlador)
+	Vue se asemeja a React y trabaja de una manera agradable.
+	Controlador va a recibir las request, validaciones, sanitización (verificar lo que nos manda el usuario), consultas y regresar la vista con la información.
+	Con las rutas tendremos una especie de directorio con rutas donde sólo las rutas dadas de alta van a existir para el sistema y usuario.
+	Método anónimo y método controlado
+	el mvc es una forma organizada de 
+	
+
+	Laravel es una de los frameworks que utilizan este método, no olvidemos que el MVC es una herramienta.
+	
+	Laravel se instala como una instancia para un proyecto con su versión en ese momento.
+	Laravel sólo funciona 
+	tenemos la opción de usar un instalador sencillo, este se usa en el powershell y podemos 
+	con Laragon podemos usar su terminal y usar los siguientes comandos:
+		composer --version (debería incluir uno)
+		composer global require laravel/installer (un composer especial que necesita Laravel???)
+		laravel new example-app (???)
+
+	PowerShell ->php.now{ 	-php
+				-composer
+				-node -
+				-NTM -  (nodejs.org)
+	Laragon ya incluye Node y NTM, además de nuestra Base de datos, apache y Nginx??
+	
+	Herd tiene también: 	
+				-php
+				-composer
+				-node -
+				-NTM -  (nodejs.org)
+				-Y Nginx
+	Es otro framework con una capa de paga para tener acceso a Bases de datos (no tendríamos SQL)
+	Laragon como Herd nos permite tener diferents versiones de Node y de PHP (en un mismo proyecto???)
+	EnvKit es una alternativa a Laragon con todo lo que puede tener Laragon(Trabaja con postgres) (sin el muro de paga)
+	con Docker o un Ubuntu podemos construir todo el servidor???
+	
+	Laravel viene por default con SQLite (sencilla pero robusta) usa un archivo como base de datos? No levanta un servidor
+	Podríamos usar Herd con SQLite
+	
+	Podemos seleccionar la versión de PHP que vamos a usar (Laragon) metiendo la versión deseada dentro de la carpeta Bin de Laragon (debemos usar el Thread Safe)
+	Para hacerlo funcionar debemos cambiar unas líneas dentro del PHP.ini, nos dirigimos a la extensión SOAP, SOCKETS, PDO_SQLITE
+	El .ini se encuentra dentro de la carpeta. podemos acceder desde laragon.
+
+	Laragon: por cada proyecto que creamos, en vez de crear el localhost manualmente con el nombre completo, pero con permisos de administrador podemos usar 
+	un nombre reducido (mi_ejemplo.test con ip de 127.0.0.1), lo hace escribiendo en un archivo una ruta con el nombre simplificado del archivo.
+	Laravel new -nombre proyecto-
+	Los starter kit nos genera todo el sistema de autentificación para register y login de usuarios, al darle un "yes" nos dará opciones, usemos livewire o vue.
+	
+	Nos pregunta por frontend a usar:
+		
+  	[blade   ] Blade
+ 	[react   ] React
+  	[svelte  ] Svelte
+  	[vue     ] Vue
+  	[livewire] Livewire
+
+	en laragon podemos crear otra termina con el shortcut Ctrl+T
+	
+	En vendor es donde se instalan todos los paquetes, recordemos que todo esto es una caja de herramientas.
+	en Public vamos a tener todo lo realmente asociado al servidor, el resto de carpetas no estarán expuestas, todo lo que está en public estará publico (Dah)
+
+	Laravel tiene embebido un servidor web
+	una vez construido el proyecto, se verá:
+
+	You can start your local development using:                  │
+ 	│                                                              │
+ 	│ 1. cd ppi-2026b                                              │
+ 	│ 2. composer run dev                                          │
+ 	│                                                              │
+	│ New to Laravel? Check out our documentation.
+	
+	ahora todos los comandos deben ser dentro de la carpeta del proyecto
+
+	Con Herd, podemos usar DBngin como base de datos
+	
+	
+-------------------------------------------------------------------------------------------------------------------------------------------------
 	TP LINK 4590: 77301499
 
