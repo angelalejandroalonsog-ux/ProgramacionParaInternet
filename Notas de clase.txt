@@ -135,13 +135,13 @@ NOTAS CLASE Programación para internet. 20/08/26
 	
 	Laravel se instala como una instancia para un proyecto con su versión en ese momento.
 	Laravel sólo funciona 
-	tenemos la opción de usar un instalador sencillo, este se usa en el powershell y podemos 
+	tenemos la opción de usar un instalador sencillo, este se usa en el powershell y 
 	con Laragon podemos usar su terminal y usar los siguientes comandos:
 		composer --version (debería incluir uno)
 		composer global require laravel/installer (un composer especial que necesita Laravel???)
 		laravel new example-app (???)
 
-	PowerShell ->php.now{ 	-php
+	PowerShell ->php.now	-php
 				-composer
 				-node -
 				-NTM -  (nodejs.org)
