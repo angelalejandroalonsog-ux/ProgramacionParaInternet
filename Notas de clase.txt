@@ -186,7 +186,7 @@ NOTAS CLASE Programación para internet. 20/08/26
 	Laravel tiene embebido un servidor web
 	una vez construido el proyecto, se verá:
 
-	You can start your local development using:                  │
+	You can start your local development using:                    │
  	│                                                              │
  	│ 1. cd ppi-2026b                                              │
  	│ 2. composer run dev                                          │
@@ -195,8 +195,44 @@ NOTAS CLASE Programación para internet. 20/08/26
 	
 	ahora todos los comandos deben ser dentro de la carpeta del proyecto
 
-	Con Herd, podemos usar DBngin como base de datos
+	Con Herd, podemos usar DBngin como base de datos.
 	
+-------------------------------------------------------------------------------------------------------------------------------------------------
+	06/10/26
+
+	DEBEMOS ESTAR USANDO BLADE EN EL PROYECTO DE LARAVEL //Usando .blade.php
+	Casi todo lo que empieza con @ implica que son métodos de blade	
+	@CSRF creará dentro de un formulario un token que se envía como parte de un formulario, al recibirlo verifica el token, si no viene el token rechaza la información que se intenta inyectar en el formulario
+	Al hacer $objeto -> save(), los datos almacenados en la variable a nivel de memoria, se van a almacenar en nuestra base de datos.
+	php artisan make: Esto crea clases, todas las clases deben ir con mayúsculas
+	php artisan migrate:rollback. con esto podemos migrar hacia atrás??? 
+	php artisan make:migration. imagino que esto hace una migración, pero hacia dónde?
+	con ::all(); obtenemos todos los registros de una tabla equivalente al select from * 
+	Podemos debuguear con php
+	debuguear con laravel usa un método llamado dd, lo que recibe como argumento lo va a mostrar en pantalla
+	con blade podemos usar una sintaxis de doble llave en vez de echo.
+	el nombre de la clase debe tener el mismo nombre del archivo, pues el framework asume que la clase está dentro del directorio con el archivo con el que comparte nombre.
+	Las clases son sensibles a las mayúsculas y minúsculas, si el archivo tiene mayúsculas, la clase también debe tenerlos.
+	php artisan make:controller (creamos una clase del tipo controlador) InformacionPersonalController (nombre de nuestra clase)
+	Esto nos creará el controlador pero será un controlador vacío, nosotros necesitamos añadir los métodos que necesitemos.
+	Dentro del controlador crearemos controladores que no son anónimos de acuerdo a los métodos de nuestro formulario, por ejemplo
+	añadir, editar y eliminar, son métodos que necesitaremos para los controladores, hay muchos más.
+	php artisan make:controller -r InformacionPersonalController. Esto nos creará un controlador con todos los recursos que vamos a necesitar.
+	Ahora el controlador no estará vacío, tendrá diversos métodos esqueleto que podríamos necesitar, pero podemos no usarlos o no necesitarlos.
+
+	Index: Mostrar un listado de este recurso, en este caso, mostrar un listado de la tabla información personal. //algo para mostrar los registros
+	Create: hace un nuevo registro, //para crear el registro
+	Edit: edita un formulario
+	Store: para guardar, espera a recibir información de un formulario.
+	show:Vemos la información desglosada
+	etc.
+
+	Podemos 
+	php artisan make:model (crea una clase de tipo modelo) -mcr (crear un controlador del tipo resource con migración(migrate, controller, resource))InformacionPersonal
+	pero también podemos sólo crear el controlador tipo resource.
+	y podemos pasar todo lo que teníamos en el web.php a su método correspondiente en el controlador
+	Ahora en la función que se encontraba en el web.php ponemos que regrese el controlador.
+	El archivo web se vuelve en un directorio de rutas y el controlador contiene toda la lógica.
 	
 -------------------------------------------------------------------------------------------------------------------------------------------------
 	TP LINK 4590: 77301499
