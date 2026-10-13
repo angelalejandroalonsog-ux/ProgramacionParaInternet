@@ -233,7 +233,16 @@ NOTAS CLASE Programación para internet. 20/08/26
 	y podemos pasar todo lo que teníamos en el web.php a su método correspondiente en el controlador
 	Ahora en la función que se encontraba en el web.php ponemos que regrese el controlador.
 	El archivo web se vuelve en un directorio de rutas y el controlador contiene toda la lógica.
-	
+-------------------------------------------------------------------------------------------------------------------------------------------------
+	13/10/26
+
+	put patch delete query, son verbos del protocolo de comunicación de http
+	HTML no utiliza más que el método get y método post
+	arquitectura res para interactucar de manera estandar con un recurso.
+	como desde html no podemos mandar ni put ni patch, etc, y nuestro código lo espera, entonces usamos un @method
+	el @method crea un input oculto
+	Put y patch cumplen una función similar para nosotros, pero put reemplaza todo y patch sólo una parte.
+	Gracias a esto podemos eliminar o editar un registro de la base de datos.
 -------------------------------------------------------------------------------------------------------------------------------------------------
 	TP LINK 4590: 77301499
 
