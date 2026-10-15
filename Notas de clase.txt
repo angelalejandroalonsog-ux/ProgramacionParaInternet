@@ -244,5 +244,18 @@ NOTAS CLASE Programación para internet. 20/08/26
 	Put y patch cumplen una función similar para nosotros, pero put reemplaza todo y patch sólo una parte.
 	Gracias a esto podemos eliminar o editar un registro de la base de datos.
 -------------------------------------------------------------------------------------------------------------------------------------------------
+	15 10 26
+	Work OS provee de un login, permite logearse con diferentes plataformas, también genera el one time password. https://workos.com/
+	El laravel Boost nos otorgo una IA que va a añadir todos los lineamientos MD
+	El middleware van a ser bardas perimetrales que tendrán la aplicación, el usuario no podrá entrar a ninguna ruta no habilitada para el usuario. 
+	Hay middleware que ya vienen construidos, por ejemplo: que hayas confirmado tu correo o requerir que el usuario esté logeado.
+	podemos crear las view desde los comandos con : php artisan make:view nombre-de-la-vista
+	al momento de crear una ruta podemos concatenar los middleware que queremos que aplique
+	O podemos aplicar un middleware a un grupo de rutas.
+	Gates tienen reglas más de alto nivel.
+	Policy también añade cosas más finas.
+	Middleware protege las rutas, son bardas perimetrales.
+	
+-------------------------------------------------------------------------------------------------------------------------------------------------
 	TP LINK 4590: 77301499
 
