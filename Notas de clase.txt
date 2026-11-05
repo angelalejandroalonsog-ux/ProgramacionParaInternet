@@ -255,6 +255,15 @@ NOTAS CLASE Programación para internet. 20/08/26
 	Gates tienen reglas más de alto nivel.
 	Policy también añade cosas más finas.
 	Middleware protege las rutas, son bardas perimetrales.
+-------------------------------------------------------------------------------------------------------------------------------------------------
+	05 11 26
+	Tema por revisar: validaciones. 
+	PHP artisan --filter ReportControllerTest
+	now()=>addDay()=>toDateString //imprime la fecha actual en el reporte. 
+	es más rápido usar los test con las validaciones para que ahorremos tiempo y sea más eficiente el código al verificar, por ejemplo, 
+	una fecha (a menos que sea una cita, que no use fechas futuras) o datos (que no use solamente un caracter, etc)
+	available validation rules, en la documentación de Laravel tenemos esta sección que nos va a ser de mucha utilidad.
+	En general es de bastante utilidad revisar la documentación para el caso de este proyecto. (más con mis ausencias recientes.)
 	
 -------------------------------------------------------------------------------------------------------------------------------------------------
 	TP LINK 4590: 77301499
